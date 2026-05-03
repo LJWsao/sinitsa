@@ -2249,7 +2249,7 @@
 		)
 		(uuid "c3b23fbb-9586-43a3-829e-53db97a573d7")
 	)
-	(text "Sinitsa Mod All Band Receiver\n"
+	(text "Sinitsa Mod All Band Receiver V1\n\n"
 		(exclude_from_sim no)
 		(at 209.296 189.738 0)
 		(effects
@@ -2342,6 +2342,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b328e06b-2310-4c09-b3d0-cb80c6cd1139")
+	)
+	(junction
+		(at 245.11 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd04f910-a2ad-4340-b3ce-a07f688e300b")
 	)
 	(junction
 		(at 62.23 71.12)
@@ -2689,7 +2695,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 66.04) (xy 223.52 66.04)
+			(xy 219.71 66.04) (xy 223.52 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2789,6 +2795,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 68.58) (xy 245.11 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be8fe99-5245-46d5-9fb6-043040055768")
+	)
+	(wire
+		(pts
 			(xy 41.91 115.57) (xy 41.91 116.84)
 		)
 		(stroke
@@ -2859,7 +2875,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 69.85) (xy 220.98 66.04)
+			(xy 219.71 69.85) (xy 219.71 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2986,6 +3002,26 @@
 			(type default)
 		)
 		(uuid "ae0e8fd3-8c23-408e-8952-2e086197e59f")
+	)
+	(wire
+		(pts
+			(xy 218.44 69.85) (xy 219.71 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2a164a-d89c-4646-99f3-c882811cd0e6")
+	)
+	(wire
+		(pts
+			(xy 223.52 81.28) (xy 223.52 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24f00bd-472b-43d0-a2c4-95e7ddd5735a")
 	)
 	(wire
 		(pts
@@ -3146,16 +3182,6 @@
 			(type default)
 		)
 		(uuid "e539bfb0-8eaf-4a9b-a123-bdb0dbe17c93")
-	)
-	(wire
-		(pts
-			(xy 218.44 69.85) (xy 220.98 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e62801c2-ae18-45c8-a37e-4cb78ad79a69")
 	)
 	(wire
 		(pts

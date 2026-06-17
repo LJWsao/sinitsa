@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "/Users/therefore/sinitsa/sinitsa_github/sinitsa/all_band_rec/Footprints/footprints.pretty")(options "")(descr ""))
+)

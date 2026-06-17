@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SPST_Slide_Switch")(type "KiCad")(uri "/Users/therefore/sinitsa/sinitsa_github/sinitsa/all_band_rec/Symbols/SPST_Slide_Switch.kicad_sym")(options "")(descr ""))
+  (lib (name "CD4053BPWR")(type "KiCad")(uri "/Users/therefore/sinitsa/sinitsa_github/sinitsa/all_band_rec/Symbols/CD4053BPWR.kicad_sym")(options "")(descr ""))
+  (lib (name "lm358dr_2026-04-02_20-26-37")(type "KiCad")(uri "/Users/therefore/sinitsa/sinitsa_github/sinitsa/all_band_rec/Symbols/lm358dr_2026-04-02_20-26-37.kicad_sym")(options "")(descr ""))
+)

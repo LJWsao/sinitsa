@@ -2701,7 +2701,7 @@
 		(uuid "78b21319-5707-48b9-ab00-ef92aff96183")
 	)
 	(junction
-		(at 195.58 52.07)
+		(at 194.31 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ee33eb3-2947-4b6e-940e-df28a17d1a62")
@@ -3050,7 +3050,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 52.07) (xy 195.58 52.07)
+			(xy 191.77 52.07) (xy 194.31 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3390,6 +3390,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 60.96) (xy 194.31 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a577f539-8764-4b5b-acf8-32a7c67b1d2f")
+	)
+	(wire
+		(pts
 			(xy 105.41 92.71) (xy 105.41 123.19)
 		)
 		(stroke
@@ -3470,7 +3480,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 52.07) (xy 195.58 54.61)
+			(xy 194.31 52.07) (xy 194.31 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3650,7 +3660,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 52.07) (xy 199.39 52.07)
+			(xy 194.31 52.07) (xy 199.39 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3922,7 +3932,7 @@
 	)
 	(global_label "6V"
 		(shape input)
-		(at 193.04 52.07 180)
+		(at 191.77 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3932,7 +3942,7 @@
 		)
 		(uuid "b945ae3b-3a07-4030-9928-a4c59f1ecec7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.7567 52.07 0)
+			(at 186.4867 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +4000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 250.19 101.9048 0)
 			(effects
 				(font
@@ -4420,91 +4430,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 167.64 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "151b2b70-db29-4365-af61-ad9edebf68cf")
-		(property "Reference" "C4"
-			(at 167.386 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 167.64 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 167.64 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 167.64 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 167.64 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 167.64 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afcfdf47-1149-44d4-9390-f0a0199f558c")
-		)
-		(pin "2"
-			(uuid "8eced819-b8e3-4939-a7df-5e1c10e1786c")
-		)
-		(instances
-			(project ""
-				(path "/236c87b2-1335-4416-a518-65c0a30d1dd7"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 69.85 59.69 0)
 		(unit 2)
@@ -4844,7 +4769,7 @@
 				)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "1.2K"
 			(at 215.9 99.06 90)
 			(effects
 				(font
@@ -5001,6 +4926,92 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 167.64 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24f78b23-9525-45f8-8fff-b93d933e9ddb")
+		(property "Reference" "C4"
+			(at 167.64 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 167.64 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 171.45 66.3448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 167.64 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 167.64 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f45a55bf-fcba-4b25-bef5-d6bea46a27d9")
+		)
+		(pin "2"
+			(uuid "efc6a918-7ec8-4fae-9e9a-b35e242cf600")
+		)
+		(instances
+			(project "ab_rec"
+				(path "/236c87b2-1335-4416-a518-65c0a30d1dd7"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 86.36 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5027,7 +5038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 87.3252 58.42 0)
 			(effects
 				(font
@@ -5115,7 +5126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 95.5548 149.86 0)
 			(effects
 				(font
@@ -5192,7 +5203,7 @@
 				)
 			)
 		)
-		(property "Value" "0.05uF"
+		(property "Value" "47nF"
 			(at 237.744 77.724 90)
 			(effects
 				(font
@@ -5262,7 +5273,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 62.23 0)
+		(at 194.31 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5270,7 +5281,7 @@
 		(dnp no)
 		(uuid "2c517a1f-e2a0-4c25-9017-708bdf8636b8")
 		(property "Reference" "#PWR017"
-			(at 195.58 68.58 0)
+			(at 194.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,7 +5290,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 66.04 0)
+			(at 194.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 62.23 0)
+			(at 194.31 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 62.23 0)
+			(at 194.31 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5316,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 62.23 0)
+			(at 194.31 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,93 +5864,6 @@
 			(project "ab_rec"
 				(path "/236c87b2-1335-4416-a518-65c0a30d1dd7"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 195.58 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f8e121f-b15c-4a10-b316-23fe07ff0403")
-		(property "Reference" "C12"
-			(at 189.23 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF"
-			(at 187.452 58.928 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 196.5452 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 195.58 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 195.58 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 195.58 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1ab2cde-eceb-43c2-950f-7a3f0c3997b6")
-		)
-		(pin "2"
-			(uuid "bde78b82-54fd-4c66-88a0-29d03be8607f")
-		)
-		(instances
-			(project ""
-				(path "/236c87b2-1335-4416-a518-65c0a30d1dd7"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6631,7 +6555,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 186.69 71.628 90)
 			(effects
 				(font
@@ -7242,7 +7166,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 177.8 68.834 0)
 			(effects
 				(font
@@ -7251,7 +7175,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "footprints:POT_P120PK-x25_TTE"
 			(at 176.53 67.31 0)
 			(effects
 				(font
@@ -7535,7 +7459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" ""
 			(at 30.48 80.01 0)
 			(effects
 				(font
@@ -8778,6 +8702,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 194.31 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee4a056d-38b0-4437-b3c9-e23f495bb623")
+		(property "Reference" "C12"
+			(at 197.612 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220uF"
+			(at 190.246 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 194.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 194.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 194.31 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 194.31 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c35e4f7c-7f56-4021-8d71-bfddcede76ca")
+		)
+		(pin "2"
+			(uuid "00f4e2b6-13f8-4d05-8f73-9bbbd86916b4")
+		)
+		(instances
+			(project "ab_rec"
+				(path "/236c87b2-1335-4416-a518-65c0a30d1dd7"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 96.52 138.43 180)
 		(unit 1)
@@ -8893,7 +8902,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 209.8548 50.8 0)
 			(effects
 				(font

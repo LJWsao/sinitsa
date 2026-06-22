@@ -1,4 +1,4 @@
-26895184395194633
+26900531116321904
 Audio_Module
 MODULE_WIFI_KIT_32__V3_
 
@@ -106813,6 +106813,13 @@ Untitled_1
 0
 0
 footprints
+CAP_16SVPK220M
+
+
+0
+2
+2
+footprints
 DO-35_STM_5711
 
 1N5711 
@@ -106834,12 +106841,26 @@ P120PK-Y25BR10K
 3
 3
 footprints
+POT_TRIM_3310Y-001-102L
+
+
+0
+3
+3
+footprints
 SOP65P640X120-16N
 
 
 0
 16
 16
+footprints
+SPKR_AST-03208MR-R
+
+
+0
+2
+2
 footprints
 SW_1MS02Q_CNK_Slide_Switch
 

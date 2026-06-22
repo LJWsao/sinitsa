@@ -1,21 +1,176 @@
-
-(footprint SPKR_AST-03208MR-R (layer F.Cu) (tedit 6A39430B)
-  (descr "")
-  (fp_text reference REF** (at 3.175 -17.385 0) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text value SPKR_AST-03208MR-R (at 11.43 17.385 0) (layer F.Fab)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (pad P thru_hole circle (at -8.765 0.0) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
-  (pad N thru_hole circle (at 8.765 0.0) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
-  (fp_circle (center 0.0 0.0) (end 15.95 0.0) (layer F.SilkS) (width 0.127))
-  (fp_circle (center 0.0 0.0) (end 15.95 0.0) (layer F.Fab) (width 0.127))
-  (fp_circle (center 0.0 0.0) (end 16.2 0.0) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -18.25 0.0) (end -17.25 0.0) (layer F.SilkS) (width 0.127))
-  (fp_line (start -17.75 -0.5) (end -17.75 0.5) (layer F.SilkS) (width 0.127))
-  (fp_line (start -18.25 0.0) (end -17.25 0.0) (layer F.Fab) (width 0.127))
-  (fp_line (start -17.75 -0.5) (end -17.75 0.5) (layer F.Fab) (width 0.127))
-  (fp_line (start 17.0 0.0) (end 18.0 0.0) (layer F.Fab) (width 0.127))
-  (fp_line (start 17.0 0.0) (end 18.0 0.0) (layer F.SilkS) (width 0.127))
+(footprint "SPKR_AST-03208MR-R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.175 -17.385 0)
+		(layer "F.SilkS")
+		(uuid "85a22b5c-1abd-4d6d-a7a4-f53cc48c4243")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SPKR_AST-03208MR-R"
+		(at 11.43 17.385 0)
+		(layer "F.Fab")
+		(uuid "db6da17e-491d-44aa-88a1-06fcc2a965a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fed2b77-46df-46af-a596-e8ea0d1314c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8fb398d-c31d-458f-a553-7de5bdf521a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -18.25 0)
+		(end -17.25 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e2e4d6a-c981-48c5-be2b-ee60554a0177")
+	)
+	(fp_line
+		(start -17.75 -0.5)
+		(end -17.75 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d53d677-7722-4dd4-a90d-59f6fdd93b9c")
+	)
+	(fp_line
+		(start 17 0)
+		(end 18 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e0d2285-3204-4221-b9e8-2d5c1e0ea9bd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 15.95 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8d56793e-f44d-4990-bd92-6e5236316be4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 16.2 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4ad122f2-eb91-4c58-a2fb-becea55c76d0")
+	)
+	(fp_line
+		(start -18.25 0)
+		(end -17.25 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf69b735-0a2f-4155-a760-d034b9252f22")
+	)
+	(fp_line
+		(start -17.75 -0.5)
+		(end -17.75 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7f0d078-86a7-4d73-b021-7caaf2668002")
+	)
+	(fp_line
+		(start 17 0)
+		(end 18 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e4cbb7e-458f-4f6d-a38e-102b5d384d8d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 15.95 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7d464a9d-15fa-400b-bba5-d1e7c5ef6b5a")
+	)
+	(pad "N" thru_hole circle
+		(at 8.765 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "5f8e2d7b-54de-4e2c-ba2b-a1ab721e0e5f")
+	)
+	(pad "P" thru_hole circle
+		(at -8.765 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a9aa2f84-ca26-4f7f-b95a-d091b2ae914c")
+	)
+	(embedded_fonts no)
+	(model "/Users/therefore/sinitsa/sinitsa_github/sinitsa/all_band_rec/3D_models/SPKR_AST-03208MR-R.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
 )

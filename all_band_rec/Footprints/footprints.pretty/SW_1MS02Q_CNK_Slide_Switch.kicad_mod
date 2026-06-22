@@ -300,4 +300,15 @@
 		(uuid "67b8358b-fdca-4887-91be-9f3f1e2c64ca")
 	)
 	(embedded_fonts no)
+	(model "/Users/therefore/sinitsa/sinitsa_github/sinitsa/all_band_rec/3D_models/L101011MS02Q.STEP"
+		(offset
+			(xyz -2.8 -4.5 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
 )

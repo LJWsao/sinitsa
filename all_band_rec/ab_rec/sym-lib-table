@@ -5,4 +5,7 @@
   (lib (name "lm358dr_2026-04-02_20-26-37")(type "KiCad")(uri "/Users/therefore/sinitsa/sinitsa_github/sinitsa/all_band_rec/Symbols/lm358dr_2026-04-02_20-26-37.kicad_sym")(options "")(descr ""))
   (lib (name "1N5711")(type "KiCad")(uri "/Users/therefore/sinitsa/sinitsa_github/sinitsa/all_band_rec/Symbols/1N5711.kicad_sym")(options "")(descr ""))
   (lib (name "lin_pot_10k")(type "KiCad")(uri "/Users/therefore/sinitsa/sinitsa_github/sinitsa/all_band_rec/Symbols/lin_pot_10k.kicad_sym")(options "")(descr ""))
+  (lib (name "POT_3310Y-001-102L")(type "KiCad")(uri "/Users/therefore/sinitsa/sinitsa_github/sinitsa/all_band_rec/Symbols/POT_3310Y-001-102L.kicad_sym")(options "")(descr ""))
+  (lib (name "SPKR_AST-03208MR-R")(type "KiCad")(uri "/Users/therefore/sinitsa/sinitsa_github/sinitsa/all_band_rec/Symbols/SPKR_AST-03208MR-R.kicad_sym")(options "")(descr ""))
+  (lib (name "16SVPK220M")(type "KiCad")(uri "/Users/therefore/sinitsa/sinitsa_github/sinitsa/all_band_rec/Symbols/16SVPK220M.kicad_sym")(options "")(descr ""))
 )

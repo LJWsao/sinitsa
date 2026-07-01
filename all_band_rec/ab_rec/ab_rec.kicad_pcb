@@ -5262,7 +5262,7 @@
 				)
 			)
 		)
-		(property "Value" "Antenna_Pin"
+		(property "Value" "Antenna"
 			(at 0 2.55 0)
 			(layer "F.SilkS")
 			(uuid "256f3a14-5354-432f-b085-3d8e9c84d652")

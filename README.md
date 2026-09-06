@@ -1,3 +1,4 @@
+<img width="748" height="486" alt="Screenshot 2026-09-06 at 6 58 10 PM" src="https://github.com/user-attachments/assets/417608b3-09ec-4fca-9d72-d349d2c74da6" />
 KiCAD files for the all band receiver. This can pick up strong local sources of RF such as AM and FM radio stations. It is based on the 
 Amazing All Band Receiver by Charles Wenzel: https://techlib.com/electronics/allband.htm
 
